@@ -1,4 +1,19 @@
+<script>
+  import Contador from "./components/Contador.vue";
+  export default {
+      name: "App",
+      components:  {
+        Contador
+      }
+  };
+</script>
+
 <template>
-  <h1>Hola mundoss</h1>
+  <Contador>
+
+  </Contador>
 </template>
 
+<style>
+
+</style>
